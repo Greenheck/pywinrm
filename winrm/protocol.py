@@ -147,7 +147,7 @@ class Protocol(object):
                 },
                 # TODO: research this a bit http://msdn.microsoft.com/en-us/library/cc251561(v=PROT.13).aspx
                 #'cfg:MaxTimeoutms': 600
-                'w:OperationTimeout': 'PT60S',
+                'w:OperationTimeout': 'PT1800S',
                 'w:ResourceURI': {
                     '@mustUnderstand': 'true',
                     '#text': resource_uri
